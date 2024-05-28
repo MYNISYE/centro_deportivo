@@ -50,8 +50,8 @@ const Reservas = () => {
             await db.collection(usuario).doc(elemento.id).delete();
             const listaFiltrada = lista.filter(elemento => elemento.id !== id)
             setLista(listaFiltrada)
-            window.location.reload();
             alert("La instalacion ahora se encuentra disponible");
+            window.location.reload();
         } catch (error) {
             console.error(error);
         }
