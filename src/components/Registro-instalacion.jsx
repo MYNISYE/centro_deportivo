@@ -175,7 +175,7 @@ const Registro = () => {
         <div className='d-grid gap-2'>
           {
             modoedicion ? <button type='submit' className='btn btn-dark'>Editar</button> :
-              <button type='submit' className='btn btn-dark'>Registrar</button>
+              <button type='submit' className='btn btn-danger'>Registrar</button>
           }
 
         </div>
@@ -183,7 +183,7 @@ const Registro = () => {
       <h2 className='text-center text-dark'>Listado de las Instalaciones</h2>
       <div className="card-grid">
         {lista.map((elemento) => (
-          <div className="card border-dark mb-3" key={elemento.id}>
+          <div className="card border-danger mb-3" key={elemento.id}>
             <div className="card-body">
               <h5 className="card-title">Nombre: {elemento.Nombre}</h5>
               <p className="card-text">Numero de instalacion: {elemento.NumeroSalon}</p>
@@ -194,7 +194,7 @@ const Registro = () => {
               <button onClick={() => eliminarDato(elemento.id)} className="btn btn-danger me-2">
                 Eliminar
               </button>
-              <button onClick={() => editar(elemento)} className="btn btn-dark me-2">
+              <button onClick={() => editar(elemento)} className="btn btn-primary me-2">
                 Editar
               </button>
             </div>

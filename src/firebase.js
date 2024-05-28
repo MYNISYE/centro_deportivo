@@ -3,13 +3,12 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAyyfQeIelH9XrmBs-XJ16plyFbHUCixl0",
-  authDomain: "libreria-e37db.firebaseapp.com",
-  projectId: "libreria-e37db",
-  storageBucket: "libreria-e37db.appspot.com",
-  messagingSenderId: "17143625487",
-  appId: "1:17143625487:web:d9951eb44ed95d775e307a",
-  measurementId: "G-7VG3JSJNJJ"
+  apiKey: "AIzaSyC2X5auIyjF8N31gz_djJc7jvguNldWUS4",
+  authDomain: "centro-deporti.firebaseapp.com",
+  projectId: "centro-deporti",
+  storageBucket: "centro-deporti.appspot.com",
+  messagingSenderId: "954074298761",
+  appId: "1:954074298761:web:8a6c49d98c5e022d2a8958"
 };
 
 app.initializeApp(firebaseConfig);

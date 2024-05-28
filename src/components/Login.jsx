@@ -92,7 +92,7 @@ const Login = () => {
 
     return (
         <div class=' container-sm rounded card bg-red '>
-            <h3 className=' text-center text-white'>
+            <h3 className=' text-center text-dark'>
                 {modoRegistro ? 'Registro de Usuarios' : 'Login'}
             </h3>
             <div className='row justify-content-center'>
@@ -116,12 +116,12 @@ const Login = () => {
                             onChange={e => setPass(e.target.value.trim())}
                         />
                         <div className='d-grid gap-2'>
-                            <button className='btn btn-outline-secondary text-white'>
+                            <button className='btn btn-danger btn-outline-secondary text-white'>
                                 {
                                     modoRegistro ? 'Registrarse' : 'Acceder'
                                 }
                             </button>
-                            <button className='btn btn-outline-secondary text-white'
+                            <button className='btn btn-danger btn-outline-secondary text-white'
                                 onClick={() => {setModoRegistro(!modoRegistro) }} 
                                 type='button'
                             >

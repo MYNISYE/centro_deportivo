@@ -70,7 +70,7 @@ const Reservas = () => {
                             <p className="card-text">Descripción: {elemento.Descripcion}</p>
                         </div>
                         <div className="card-footer">
-                            <button onClick={() => InstalacionDisponible(elemento)} className="btn btn-dark me-2">
+                            <button onClick={() => InstalacionDisponible(elemento)} className="btn btn-danger me-2">
                                 Desocupar
                             </button>
                         </div>

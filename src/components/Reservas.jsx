@@ -83,7 +83,7 @@ return (
               <div className="card-footer">
                 <button
                   onClick={() => ReservarInstalacion(elemento)}
-                  className="btn btn-primary me-2"
+                  className="btn btn-danger me-2"
                 >
                 Reservar
                 </button>
