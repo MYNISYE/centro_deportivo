@@ -91,7 +91,7 @@ const Login = () => {
 
 
     return (
-        <div class=' container-sm rounded card bg-dark '>
+        <div class=' container-sm rounded card bg-red '>
             <h3 className=' text-center text-white'>
                 {modoRegistro ? 'Registro de Usuarios' : 'Login'}
             </h3>

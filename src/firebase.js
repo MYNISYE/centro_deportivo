@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAU-VL8M6D4-Djx7mT13T8RKJFOLQE-BZo",
-  authDomain: "parcial-kiuvo.firebaseapp.com",
-  projectId: "parcial-kiuvo",
-  storageBucket: "parcial-kiuvo.appspot.com",
-  messagingSenderId: "1078681108137",
-  appId: "1:1078681108137:web:100dad9763e620ade9f3b8",
-  measurementId: "G-CTKBJKMQJ5"
+  apiKey: "AIzaSyAyyfQeIelH9XrmBs-XJ16plyFbHUCixl0",
+  authDomain: "libreria-e37db.firebaseapp.com",
+  projectId: "libreria-e37db",
+  storageBucket: "libreria-e37db.appspot.com",
+  messagingSenderId: "17143625487",
+  appId: "1:17143625487:web:d9951eb44ed95d775e307a",
+  measurementId: "G-7VG3JSJNJJ"
 };
 
 app.initializeApp(firebaseConfig);
