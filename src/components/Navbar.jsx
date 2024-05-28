@@ -8,7 +8,7 @@ const Navbar = (props) => {
   const cerrarsesion = () => { auth.signOut().then(() => { navigate('/login') }) }
   return (
     <div className='navbar navbar-expand-lg navbar-light bg-dark py-4 fixed shadow-lg p-3 mb-5'>
-      {props.firebaseUser !== null ? (<Link className='navbar-brand bg-dark text-bg-primary ' to="/">Unicosta - {props.firebaseUser.email} </Link>) : <Link className='navbar-brand bg-dark text-bg-primary' to="/">Unicosta </Link>}
+      {props.firebaseUser !== null ? (<Link className='navbar-brand text-bg-primary ' to="/">Unicosta - {props.firebaseUser.email} </Link>) : <Link className='navbar-brand bg-dark text-bg-primary' to="/">Unicosta </Link>}
       <div className='d-flex'>
         <Link className='btn btn-dark' to="/">Inicio</Link>
 
